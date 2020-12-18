@@ -1,0 +1,89 @@
+.background-red{
+    background-color: red;
+}
+.background-yellow{
+    background-color: yellow;
+}
+
+.background-green{
+    background-color: green;
+}
+
+.background-blue{
+    background-color: blue;
+}
+
+.background-purple{
+    background-color: purple;
+}
+
+.background-white{
+  background-color: white;
+}
+
+body{
+
+  overflow: hidden;
+}
+
+.pageLoad{
+
+  display: none;
+}
+
+.visible{
+
+  animation: slideIn 1s  1 linear;
+}
+
+.hidden{
+  
+  margin-left: -300px;
+  animation: slideOut 1.5s  1 linear ;
+}
+
+h3{
+
+  display: inline;
+  margin-left: 50%;
+}
+
+#menu{
+
+  list-style: none;
+  border: 1px solid gray;
+  width: 100px;
+  padding-left: 0px;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.icon{
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+  position: relative;
+  max-width: 10px;
+}
+
+li{
+
+text-align: left;
+}
+
+@keyframes slideIn{
+
+  0% {margin-left: -300px; opacity: 0;}
+  100% {margin-left: 3px;}
+}
+
+@keyframes slideOut{
+
+  0% {margin-left: 3px}
+  100% {margin-left: -300px; opacity: 0;}
+}
+
+ 
+
+
+
